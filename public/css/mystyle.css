@@ -1,0 +1,915 @@
+/*nav and slide*/
+.container{
+    width: 100%;
+}
+#ravo{
+    font-size:35px;
+    color:#fff;
+}
+#ravo:hover{
+    color: darkgoldenrod;
+}
+#navmenu{
+    color: #fff;
+    border-color: #ffffff;
+    font-size: 20px;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size:cover;
+}
+.carousel-caption{
+    position: relative;
+    top:40%;
+    bottom: 50%;
+}
+.carousel-caption h5{
+    font-size: 3.5vw;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top:25px;
+    font-family: "merienda", sans-serif;
+}
+.carousel-caption p{
+    width: 60%;
+    margin:auto;
+    font-size: 1.5vw;
+    line-height: 1.9;
+    font-family: "poppins", sans-serif;
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    background: #262626;
+    padding:10px 30px;
+    display: inline-block;
+    color:#fff;
+    border-radius: 6px;
+    margin-top:15px;
+}
+.navbar-nav a{
+    font-family: "poppins", sans-serif;
+    font-size:3vw;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+.navbar-light .navbar-brand{
+    color:#fff;
+    font-size:25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#navmenu:hover{
+    color: darkgoldenrod;
+}
+.w-100{
+    height: 100vh;
+}
+nav.black{
+    background:#000;
+}
+
+/*footer*/
+.footer{
+    width: 100%;
+    height: 40vh;
+    background-color: #2c2c2c;
+
+}
+.end{
+    width: 100%;
+    height: 4vh;
+    background-color: #000000;
+}
+.footer-main{
+    width: 100%;
+    height: 40%;
+    padding-top: 3%;
+    text-align: center;
+    float:left;
+}
+.footer-big{
+    width: 100%;
+    float:left;
+    height: 60%;
+    margin:auto;
+}
+.footer-session{
+    width:33.33%;
+    float:left;
+    height: 100%;
+    text-align: center;
+}
+.footer-session h3{
+    color:white;
+    font-size: 2vw;
+}
+.footer-session p{
+    color:white;
+    font-size: 1vw;
+}
+.footer-session a{
+    color:white;
+}
+#namelink{
+    text-decoration: none;
+    color: white;
+    font-family: "poppins", sans-serif;
+    font-size:40px;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+#namelink:hover{
+    color: darkgoldenrod;
+}
+
+/*body home*/
+.main-first{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+.main-first-session{
+    width: 33.33%;
+    height: auto;
+    float:left;
+    text-align: center;
+    margin-top: 20px;
+}
+.main-first-session img{
+    width: 100%;
+    height: auto;
+}
+.main-first-session h1{
+    font-size: 3vw;
+}
+.main-first-session p{
+    margin-bottom: -1px;
+    font-size: 1vw;
+}
+.main-second{
+    width: 100%;
+    height: auto;
+    background-image: url("https://s2.best-wallpaper.net/wallpaper/1920x1200/1807/Bread-basket-black-background_1920x1200.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clear:both;
+}
+.center-img{
+    color: white;
+    text-align: center;
+    position: relative;
+    top:10%;
+    clear:both;
+}
+.center-img h1{
+    font-size: 3vw;
+}
+.center-img p{
+    font-size: 0.8vw;
+}
+.main-second-session{
+    width: 22%;
+    height: auto;
+    float:left;
+    text-align: center;
+    margin-top:5%;
+    color:white;
+    margin-left: 30px;
+}
+.main-second-session h4{
+    font-size: 1.5vw;
+}
+.main-second-session p{
+    font-size: 0.8vw;
+}
+.main-second-btn{
+    border:solid white 1px;
+    border-radius: 6px;
+    margin-left: 42%;
+    font-size: 2vw;
+    color:white;
+    text-decoration: none;
+}
+.main-second-btn:hover{
+    color:black;
+    background-color:white;
+    text-decoration: none;
+}
+
+.main-third{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    clear:both;
+    text-align: center;
+    margin-top: 3%;
+}
+.main-third h1{
+    font-size: 3vw;
+}
+.nav li a{
+    color: #ba8b00;
+    font-weight: bold;
+    font-size: 2vw;
+}
+#menu2{
+    position: relative;
+    left:6%;
+}
+#center-img{
+    width: 100%;
+    height: 20vh;
+}
+.col-tab{
+    width: 33.33%;
+    height: auto;
+    float:left;
+    margin-top: 1%;
+}
+#container-menu {
+    height: 80vh;
+}
+.col-tab p{
+    font-size: 1vw;
+    font-weight: bold;
+}
+.col-tab p span{
+    color: #a88b00;
+}
+.col-tab img{
+    width: 100%;
+    height: 30vh;
+}
+.col-tab img:hover{
+    opacity: 0.7;
+}
+#card-card{
+    width: 30%;
+    margin-left: 3%;
+    float:left;
+    margin-top:2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#p1{
+    font-weight: bold;
+    font-size: 1vw;
+    float:left;
+}
+#span1{
+    color: #a88b00;
+    float:right;
+    font-weight: bold;
+    font-size: 1vw;
+}
+#des{
+    font-size: 0.8vw;
+    clear:both;
+    display:block;
+    float:left;
+}
+.card img{
+    width: 100%;
+    height: 25vh;
+}
+.card img:hover{
+    cursor: pointer;
+    opacity:0.8;
+}
+/*menu page*/
+.first-main{
+    width: 100%;
+    height: 40vh;
+    background-image: url("../uploads/brackfast.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clear:both;
+    text-align: center;
+}
+#text-main{
+    color:white;
+    position: relative;
+    top: 35%;
+    font-size: 3vw;
+    font-weight: bold;
+    font-family: "merienda", sans-serif;
+    text-transform: uppercase;
+}
+.first-main-session{
+    margin: auto;
+    width: 80%;
+    height: 85vh;
+}
+#all-card{
+    width: 19rem;
+    float:left;
+    margin-left: 4%;
+    margin-top: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#all-card img{
+    width: 100%;
+    height: 27vh;
+}
+.second-main{
+    width: 100%;
+    height: 40vh;
+    background-image: url("../uploads/lunch.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clear:both;
+    text-align: center;
+}
+.third-main{
+    width: 100%;
+    height: 40vh;
+    background-image: url("../uploads/dinner.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clear:both;
+    text-align: center;
+}
+.forth-main{
+    width: 100%;
+    height: 40vh;
+    background-image: url("../uploads/7.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clear:both;
+    text-align: center;
+}
+.fifth-main{
+    width: 100%;
+    height: 40vh;
+    background-image: url("../uploads/drink.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clear:both;
+    text-align: center;
+}
+#p2{
+    font-weight: bold;
+    font-size: 1vw;
+    float:left;
+}
+#span2{
+    color: #a88b00;
+    float:right;
+    font-weight: bold;
+    font-size: 1vw;
+}
+#des2{
+    font-size: 0.8vw;
+    clear:both;
+    display:block;
+    float:left;
+}
+.contact{
+    width: 100%;
+    height: 50vh;
+    background-image: url("../uploads/c.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clear:both;
+    text-align: center;
+}
+.contact-in{
+    width: 18vw;
+    height: 15vh;
+    margin: auto;
+    position: relative;
+    top:40%;
+    background-color: white;
+    opacity: 0.7;
+    filter: alpha(opacity=60);
+    border-radius: 6px;
+}
+.contact-in h1{
+    font-size: 2vw;
+    font-weight: bold;
+    color: black;
+    font-family: "merienda", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    top:20%;
+}
+.contact-in p{
+    font-weight: bold;
+    color: black;
+    position: relative;
+    top:20%;
+}
+.form-part{
+    width: 100%;
+    height: 60vh;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.form{
+    width: 49%;
+    height: auto;
+    margin-left:1%;
+    float:left;
+}
+#map{
+    width: 49%;
+    height: 60vh;
+    margin-left:1%;
+    float:left;
+}
+.form legend{
+    font-family: "merienda", sans-serif;
+    text-transform: uppercase;
+    font-size: 2vw;
+    font-weight: bold;
+}
+#p-text{
+    margin-left: 1%;
+}
+.time-open-main{
+    width: 100%;
+    height: 70vh;
+    background-image: url("../uploads/aa.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clear:both;
+    text-align: center;
+}
+.time-open{
+    width: 48%;
+    height: 30vh;
+    background-color: white;
+    float:left;
+    color: #856404;
+    margin-left: 1%;
+    margin-top: 15%;
+}
+.contact-near{
+    width: 48%;
+    height: 30vh;
+    background-color: #ffffff;
+    float:left;
+    color: #856404;
+    margin-left: 3%;
+    margin-top: 15%;
+}
+.our-team{
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+}
+#our-card{
+    width: 30%;
+    float:left;
+    margin-left: 2%;
+    margin-top: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#btn-send{
+    background-color: #000000;
+    width: 20%;
+    border: solid black 1px;
+}
+#btn-send:hover{
+    background-color: #a88b00;
+    border: solid black 1px;
+}
+#our-card img{
+    height: 35vh;
+}
+.reservation{
+    width: 100%;
+    height: auto;
+    color: #856404;
+    text-align: center;
+}
+#con{
+    margin-bottom: 3%;
+}
+#reservation-box{
+    width: 30%;
+    float:left;
+    margin-left: 2.5%;
+}
+#reservation-box input{
+    border: solid #856404 1px;
+}
+#reservation-box select{
+    border: solid #856404 1px;
+}
+.chief{
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+}
+#text-chief{
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #856404;
+}
+/*responsive part*/
+@media only screen and (max-width:1500px){
+    #menu2{
+        left:15%
+    }
+    .first-main-session{
+        height: 165vh;
+    }
+    #all-card{
+        margin-left: 12%;
+    }
+    #p2{
+        font-size: 1.5vw;
+    }
+    #span2{
+        font-size: 1.5vw;
+    }
+    #des2{
+        font-size: 1vw;
+    }
+    .time-open span{
+        font-size: 1.4vw;
+    }
+    .contact-near span{
+        font-size: 1.4vw;
+    }
+    .chief{
+        height: 125vh;
+    }
+}
+@media only screen and (max-width:1200px){
+    .main-second-session{
+        width: 20%;
+        margin-left:10px;
+        margin-top: -10px;
+    }
+    #buger{
+        margin-left:40px;
+    }
+    .footer{
+        height: 27vh;
+    }
+    #menu2{
+        left:15%
+    }
+    #container-menu {
+        height: 70vh;
+    }
+    .first-main-session{
+        height: 170vh;
+    }
+    #all-card{
+        margin-left: 8%;
+    }
+    #p2{
+        font-size: 2vw;
+    }
+    #span2{
+        font-size: 2vw;
+    }
+    #des2{
+        font-size: 1.5vw;
+    }
+    #btn-send{
+        width: 30%;
+    }
+    #our-card p{
+        font-size: 1.2vw;
+    }
+    .chief{
+        height: 230vh;
+    }
+}
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .carousel-item img{
+        height: auto;
+    }
+    .main-first{
+        height: auto;
+        margin-top: -430px;
+    }
+    .carousel-caption{
+        position: relative;
+        top:15%;
+    }
+    #carouselExampleIndicators a{
+        margin-top: -470px;
+    }
+    .main-second{
+        height: auto;
+        margin-top: 450px;
+        clear:both;
+    }
+    #carouselExampleIndicators li{
+        display:none;
+    }
+    .main-second-session{
+        width: 15%;
+        margin-left:50px;
+    }
+    .main-second-btn{
+        font-size: 1vw;
+        margin-left: 15%;
+    }
+    .footer{
+        height: 23vh;
+    }
+    #container-menu {
+        height: 70vh;
+    }
+    .first-main-session{
+        height: 310vh;
+    }
+    #all-card{
+        margin-left: 10%;
+    }
+    #text-main{
+        top: 35%;
+        font-size: 5vw;
+    }
+    #p1{
+        font-size: 1.3vw;
+    }
+    #span1{
+        font-size: 1.3vw;
+    }
+    #des{
+        font-size: 1vw;
+    }
+    #p2{
+        font-size: 3vw;
+    }
+    #span2{
+        font-size: 3vw;
+    }
+    #des2{
+        font-size: 1.5vw;
+    }
+    #btn-send{
+        width: 40%;
+    }
+    #our-card p{
+        font-size: 0.8vw;
+    }
+    .time-open span{
+        font-size: 2vw;
+    }
+    .contact-near span{
+        font-size: 2vw;
+    }
+}
+@media only screen and (max-width:500px){
+    .main-first{
+        height: auto;
+    }
+    .main-second-session{
+        width: 15%;
+        margin-left:25px;
+    }
+    #carouselExampleIndicators a{
+        display: none;
+    }
+    #carouselExampleIndicators li{
+        display:none;
+    }
+    #container-menu {
+        height: 65vh;
+    }
+    .main-second-btn{
+        margin-left: 45%;
+    }
+}
+.section-header {
+    font-family: "Metal Mania", sans-serif;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-band-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.main-footer {
+    background-color: #56CCF2;
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid #2D9CDB;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    color: #2D9CDB;
+    font-size: 4em;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    text-align: center;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #2D9CDB;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #a88b00;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+#btn-pur{
+    background-color: #171a1d;
+}
+#btn-pur:hover{
+    background-color: #a88b00;
+}
+.totop a{
+    position: relative;
+
+}
+
+
+
+
