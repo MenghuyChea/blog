@@ -1,5 +1,5 @@
-@include('inc.header')
-<div class="container">
+@include('inc.header1')
+<div class="container" id="content">
     <legend>Read Chief</legend>
     <div class="row">
         <p class="lead">Name : {{$chief->name_chief}}</p>
@@ -14,4 +14,4 @@
         <p>Hire Date : {{$chief->hire_date}}</p>
     </div>
 </div>
-@include('inc.footer')
+@include('inc.footer1')

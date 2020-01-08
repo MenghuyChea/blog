@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Illuminate\Support\Facades\DB;
 use App\Book;
 use App\Chief;
 use Illuminate\Http\Request;
@@ -14,6 +14,7 @@ class FrontEndController extends Controller
     {
         $food= Food::all();
         $drink= Drink::all();
+//        $food = DB::table('foods')->where('food_type', 'like', '%breakfast')->limit(6)->get();
         return view('FrontEnd.index',['food'=>$food],['drink'=>$drink]);
     }
     public function menu()

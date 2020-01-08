@@ -1,5 +1,5 @@
-@include('inc.header')
-<div class="container">
+@include('inc.header1')
+<div class="container" id="content">
     <div class="row">
         <div class="col-md-6">
             <form method="POST" action="{{url('insert_chief')}}" method="POST" enctype="multipart/form-data">
@@ -42,4 +42,4 @@
         </div>
     </div>
 </div>
-@include('inc.footer')
+@include('inc.footer1')

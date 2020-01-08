@@ -22,6 +22,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
@@ -114,6 +117,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1VVSpbEcZygpCsbdupsYC93aPBw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -196,10 +200,28 @@
       <workItem from="1578304149921" duration="130000" />
       <workItem from="1578321839046" duration="3394000" />
       <workItem from="1578376128662" duration="3532000" />
+      <workItem from="1578382445454" duration="1804000" />
+      <workItem from="1578407735737" duration="430000" />
+      <workItem from="1578410264698" duration="99000" />
+      <workItem from="1578460511937" duration="8455000" />
+      <workItem from="1578488655373" duration="3400000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

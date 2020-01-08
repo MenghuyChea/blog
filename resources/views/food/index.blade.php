@@ -1,8 +1,7 @@
-@include('inc.header')
-<div style="text-align: center">
+@include('inc.header1')
+<div style="text-align: center;width: 100%;" id="content">
         <h1>Table Food</h1>
-    <a href="{{url('/create_food')}}" class="btn btn-success">+</a>
-</div>
+    <a href="{{url('/create_food')}}" class="btn btn-success">Insert</a>
     <div class="container">
         <div class="row">
             @if(session('info'))
@@ -38,10 +37,12 @@
                 @endif
                 </tbody>
             </table>
+            <p class="totop">
+                <a href="#top" class="btn btn-success">Back to top</a>
+            </p>
         </div>
     </div>
-<p class="totop">
-    <a href="#top" class="btn btn-success">Back to top</a>
-</p>
+</div>
 
-@include('inc.footer')
+
+@include('inc.footer1')
