@@ -83,7 +83,7 @@
         <h1>OUR TEAM</h1>
         <div class="container">
             <div class="card" id="our-card" style="margin-top: 2%;">
-                <img class="card-img-top" src="{{url('uploads/huy.jpg')}}" alt="Card image cap">
+                <img class="card-img-top" src="{{url('uploads/huy.jpg')}}" alt="Chea Menghuy" id="myImg">
                 <div class="card-body">
                     <p style="float:left;"><i class="fas fa-user faa-float animated"></i> : Chea Menghuy</p>
                     <p style="float:left;"><i class="far fa-envelope faa-shake animated"></i> : cheamenghuysnsd@gmail.com</p>
@@ -91,7 +91,7 @@
                 </div>
             </div>
             <div class="card" id="our-card" style="margin-top: 2%;">
-                <img class="card-img-top" src="{{url('uploads/sreytoch.jpg')}}" alt="Card image cap">
+                <img class="card-img-top" src="{{url('uploads/sreytoch.jpg')}}" alt="Chheun Chansreytoch" id="myImg1">
                 <div class="card-body">
                     <p style="float:left;"><i class="fas fa-user faa-float animated"></i> : Chheun Chansreytoch</p>
                     <p style="float:left;"><i class="far fa-envelope faa-shake animated"></i> : chheunchansreytoch@gmail.com</p>
@@ -99,7 +99,7 @@
                 </div>
             </div>
             <div class="card" id="our-card" style="margin-top: 2%;">
-                <img class="card-img-top" src="{{url('uploads/rithiya.jpg')}}" alt="Card image cap">
+                <img class="card-img-top" src="{{url('uploads/rithiya.jpg')}}" alt="Chhay Chanrithiya" id="myImg2">
                 <div class="card-body">
                     <p style="float:left;"><i class="fas fa-user faa-float animated"></i> : Chhay Chanrithiya</p>
                     <p style="float:left;"><i class="far fa-envelope faa-shake animated"></i> : chhoychanrithiya9848@gmail.com</p>
@@ -108,7 +108,42 @@
             </div>
         </div>
     </div>
+<div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01" style="height: 80%;">
+    <div id="caption"></div>
+</div>
 <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("myImg");
+    var img1 = document.getElementById("myImg1");
+    var img2 = document.getElementById("myImg2");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    };
+    img1.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    };
+    img2.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    };
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
     function initMap() {
         var location = {lat: 11.561832, lng: 104.892391};
         var map = new google.maps.Map(document.getElementById("map"),{
