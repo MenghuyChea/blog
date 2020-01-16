@@ -20,9 +20,8 @@ class CreatesController extends Controller
 
     public function index()
     {
-        $food= Food::all();
-//        $food = Food::Orderby('id', 'asc')->limit(10)->get();
-        return view('food.index',['food'=>$food]);
+        $foods= Food::Paginate(10);
+        return view('food.index',['foods'=> $foods]);
     }
     public function create_food()
     {

@@ -15,11 +15,12 @@
                     <th scope="col">ID</th>
                     <th scope="col">Name</th>
                     <th scope="col">Email</th>
+                    <th scope="col">Action</th>
                 </tr>
                 </thead>
                 <tbody>
-                @if(count($feed)>0)
-                    @foreach($feed->all() as $feed)
+                @if(count($feeds)>0)
+                    @foreach($feeds->all() as $feed)
                         <tr class="table-active">
                             <th scope="row">{{$feed->id}}</th>
                             <td>{{$feed->feedback_name}}</td>
@@ -32,6 +33,11 @@
                         </tr>
                     @endforeach
                 @endif
+                <div class="row" style="position: relative;left: 41%;margin-top: 1%;">
+                    <div class="col-12">
+                        {{ $feeds->links() }}
+                    </div>
+                </div>
                 </tbody>
             </table>
             <p class="totop">

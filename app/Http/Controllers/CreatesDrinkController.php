@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+
 use Illuminate\Http\Request;
 use App\Drink;
 class CreatesDrinkController extends Controller
@@ -12,8 +13,8 @@ class CreatesDrinkController extends Controller
     }
     public function index()
     {
-        $drink= Drink::all();
-        return view('drink.index',['drink'=>$drink]);
+        $drinks= Drink::Paginate(10);
+        return view('drink.index',['drinks'=>$drinks]);
     }
 
     public function create_drink()

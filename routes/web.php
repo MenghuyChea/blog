@@ -72,4 +72,3 @@ Route::post('/insert_feed', 'CreatesFeedBackController@add');
 Route::get('/update_feed/{id}', 'CreatesFeedBackController@update');
 Route::post('/edit_feed/{id}', 'CreatesFeedBackController@edit');
 Route::get('/delete_feed/{id}', 'CreatesFeedBackController@delete');
-

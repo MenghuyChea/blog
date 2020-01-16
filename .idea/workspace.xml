@@ -19,6 +19,7 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -122,6 +123,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -205,6 +207,18 @@
       <workItem from="1578410264698" duration="99000" />
       <workItem from="1578460511937" duration="8455000" />
       <workItem from="1578488655373" duration="7284000" />
+      <workItem from="1578536790168" duration="30000" />
+      <workItem from="1578540589383" duration="82000" />
+      <workItem from="1578542011850" duration="3449000" />
+      <workItem from="1578550528662" duration="10000" />
+      <workItem from="1578555054988" duration="2261000" />
+      <workItem from="1578836132312" duration="1175000" />
+      <workItem from="1578906573471" duration="464000" />
+      <workItem from="1578913995278" duration="1882000" />
+      <workItem from="1578929960901" duration="1239000" />
+      <workItem from="1578967639834" duration="6780000" />
+      <workItem from="1579159915682" duration="4202000" />
+      <workItem from="1579180728252" duration="825000" />
     </task>
     <servers />
   </component>

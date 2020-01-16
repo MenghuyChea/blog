@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>RaVo</title>
     <link rel="stylesheet" type="text/css" href="{{url('css/font-awesome-animation.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{url('css/bootstrap.css')}}">
     <script type="text/javascript" src="{{url('js/bootstrap.js')}}"></script>
@@ -16,6 +16,7 @@
     <script src="https://kit.fontawesome.com/ee7cf20964.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shotcut icon" href="{{url('uploads/images.png')}}">
 </head>
 <body>
 <header>

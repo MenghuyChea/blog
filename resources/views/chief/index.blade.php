@@ -20,8 +20,8 @@
                 </tr>
                 </thead>
                 <tbody>
-                @if(count($chief)>0)
-                    @foreach($chief->all() as $chief)
+                @if(count($chiefs)>0)
+                    @foreach($chiefs->all() as $chief)
                         <tr class="table-active">
                             <th scope="row" style="padding-top: 45px">{{$chief->id}}</th>
                             <td><img src="{{asset('uploads/chief/'.$chief->image)}}" height="100" width="150"></td>
@@ -35,6 +35,11 @@
                         </tr>
                     @endforeach
                 @endif
+                <div class="row" style="position: relative;left: 41%;margin-top: 1%;">
+                    <div class="col-12">
+                        {{ $chiefs->links() }}
+                    </div>
+                </div>
                 </tbody>
             </table>
             <p class="totop">

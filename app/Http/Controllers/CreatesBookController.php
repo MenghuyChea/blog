@@ -12,7 +12,6 @@ class CreatesBookController extends Controller
         $this->middleware('auth');
     }
     public function index(){
-//        $book= Book::all();
         $book = Book::whereDate('created_at', Carbon::today())->get();
         return view('book.index',['book'=>$book]);
     }

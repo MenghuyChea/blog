@@ -22,6 +22,15 @@
                         <input type="Price" class="form-control" id="Price" name="food_price" placeholder="Price" value="{{$food->food_price}}">
                     </div>
                     <div class="form-group">
+                        <label for="Price">Type</label>
+                        <select class="form-control" id="Price" name="food_type">
+                            <option>breakfast</option>
+                            <option>lunch</option>
+                            <option>dinner</option>
+                            <option>snack</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
                         <label for="description">Description</label>
                         <textarea name="description" id="description" class="form-control"></textarea>
                     </div>

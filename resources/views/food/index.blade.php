@@ -20,8 +20,8 @@
                 </tr>
                 </thead>
                 <tbody>
-                @if(count($food)>0)
-                    @foreach($food->all() as $food)
+                @if(count($foods)>0)
+                    @foreach($foods->all() as $food)
                         <tr class="table-active">
                             <th scope="row" style="padding-top: 45px">{{$food->id}}</th>
                             <td><img src="{{asset('uploads/food/'.$food->image)}}" height="100" width="150"></td>
@@ -35,6 +35,11 @@
                         </tr>
                     @endforeach
                 @endif
+                <div class="row" style="position: relative;left: 41%;margin-top: 1%;">
+                    <div class="col-12">
+                        {{ $foods->links() }}
+                    </div>
+                </div>
                 </tbody>
             </table>
             <p class="totop">

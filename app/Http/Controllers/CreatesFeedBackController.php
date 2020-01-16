@@ -12,8 +12,8 @@ class CreatesFeedBackController extends Controller
     }
     public function index()
     {
-        $feed= FeedBack::all();
-        return view('feedback.index',['feed'=>$feed]);
+        $feeds= FeedBack::Paginate(10);
+        return view('feedback.index',['feeds'=>$feeds]);
     }
     public function read($id)
     {

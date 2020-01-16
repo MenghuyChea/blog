@@ -12,8 +12,8 @@ class CreatesChiefController extends Controller
     }
     public function index()
     {
-        $chief= Chief::all();
-        return view('chief.index',['chief'=>$chief]);
+        $chiefs= Chief::Paginate(10);
+        return view('chief.index',['chiefs'=>$chiefs]);
     }
     public function read($id)
     {
